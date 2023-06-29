@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <title>Ricardo Arjona</title>
+
+    </head>
+
+    <body>
+        
+        <header>
+
+            <h1>Ricardo Arjona</h1>
+
+            <nav>
+
+                <ul>
+
+                    <li><a href="index.html">Inicio</a></li>
+
+                    <li><a href="preferencias.html">Preferencias</a></li>
+                    
+                    <li><a href="audiovisuales.html">Audiovisuales</a></li>
+
+                    <li><a class="active" href="contacto.html">Contacto</a></li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        
+        <div class="contenedor-formulario">
+
+            <form>
+
+                <label for="nombre">Nombre: </label>
+
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tú nombre" required minlength="3">
+
+
+                <label for="apellido">Apellido: </label>
+
+                <input type="text" id="apellido" name="apellido" placeholder="Escribe tú apellido" required minlength="3">
+
+
+                <label for="email">Email: </label>
+
+                <input type="email" id="email" name="email" placeholder="Escribe tú email" required>
+
+
+                <label for="pais">País: </label>
+
+                <select name="pais" id="pais">
+
+                    <option value="Colombia">Colombia</option>
+                    <option value="España">España</option>
+                    <option value="Panamá">Panamá</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Chile">Chile</option>
+
+                </select>
+
+
+                <label for="comentario">Comentario: </label>
+
+                <textarea name="comentario" id="comentario" placeholder="Escribe tu ú comentario"></textarea>
+
+
+                <label for="motivo">Motivo de contacto: </label>
+
+                <input type="radio" id="motivo" name="motivo"><i>Soy fan</i>
+                <input type="radio" id="motivo" name="motivo"><i>Comercial</i>
+                <input type="radio" id="motivo" name="motivo"><i>Reclamos</i>
+
+                <input type="submit" value="Enviar">
+            
+            </form>
+
+        </div>
+
+
+        <footer class="footer">
+
+            <p>Derechos reservados &copy; 2023</p>
+
+        </footer>
+
+
+    </body>
+
+</html>
